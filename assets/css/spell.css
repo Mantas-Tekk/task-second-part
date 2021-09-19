@@ -1,0 +1,59 @@
+.direct-payment-wrapper a.direct-payment-button,
+.direct-payment-wrapper button.direct-payment-button {
+    display: table;
+    padding: 0;
+    max-width: 242px;
+    text-transform: initial;
+    background-color: #000;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.direct-payment-wrapper a.direct-payment-button:hover,
+.direct-payment-wrapper button.direct-payment-button:hover,
+.direct-payment-wrapper a.direct-payment-button:focus,
+.direct-payment-wrapper button.direct-payment-button:focus {
+    text-decoration: none;
+}
+
+.direct-payment-wrapper a.direct-payment-button img,
+.direct-payment-wrapper button.direct-payment-button img {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.woocommerce-variation-add-to-cart-disabled .direct-payment-wrapper button[name="add-to-cart-direct"] {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.product .direct-payment-wrapper button.direct-payment-button {
+    margin-top: 20px;
+}
+
+.woocommerce-cart .direct-payment-wrapper a.direct-payment-button {
+    margin: 20px auto 0;
+}
+
+.woocommerce-checkout .direct-payment-wrapper a.direct-payment-button {
+    margin: 0 auto 20px;
+}
+
+button.direct-payment-button {
+    width: 100%;
+}
+
+.monthly-pay-container {
+    border: solid black 2px;
+    margin-top: 20px;
+}
+.monthly-pay-container > .slidecontainer {
+    margin: 5px;
+}
+.monthly-pay-container > .slidecontainer > input {
+    width: 100%;
+}
+.monthly-pay-container > .slidecontainer > input:focus{
+    outline: none;
+}
